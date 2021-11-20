@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Intro to CSS</title>
+    <link href="style.css" rel="Stylesheet">
+  </head>
+  <body>
+    <h1>INTRODUCTION TO CSS</h1>
+    <P>CSS (Cascading Style Sheets) is a style sheet language. It is used to style HTML elements.
+    CSS files always ends with <span id="highlight">.css</span> 
+    CSS is always made with eference to an HTML document. This is done by linking your html file to your css file. 
+    </P>
+
+    <h2>CSS RULESET</h2>
+    <img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/css-declaration-small.png" alt="CSS STRUCTURE" width="400" height="200" />
+
+        
+    <p>The basic structure of CSS consists of:
+      <ol >
+        <li> <strong class="subcategory-color">Selectors</strong>
+          <br>
+          This is the HTML element name at the start of thesyntax. It points to the elemnt to be styled.
+        </li>
+        
+        <li> <strong class="subcategory-color">Declaration </strong>
+          <br>
+          It specifies the style and the element property you want to style. It is simly key: value pair
+        </li>
+
+        <li> 
+          <strong class="subcategory-color">Property</strong>
+          <br>
+          They are used within a declaration block to specify what property of the html elemnt you want to style .
+        </li>
+
+        <li>
+          <strong class="subcategory-color">Property value</strong>
+          <br>
+          This is the exact style you want to apply to the html property.
+        </li>
+      </ol>
+     Other syntax rules include:
+      <ul id="common">
+        <li>The declaration must be wrapped in curly braces ( {} )</li>
+        <li>Within each declaration, use a semicolon (;)to separate each declaration from the next one</li>
+        <li>Within each declaration, use a colon (:) to separate/ assign the property and the property value</li>
+      </ul>
+    </p>
+    <h2>
+      CSS SELECTORS
+    </h2>
+    <p>
+      There are different types of CSS selectors; id, class, element selectors, etc.
+    </p>
+
+    <h3>
+      CSS element Selectors
+    </h3>
+    <p>
+      This selects all HTML elements of the specified type.
+      <span class="example-decor">E.g</span>  
+      <pre>
+        p {
+          color: red
+        }
+      </pre>
+      We can select multiple elements we want with the same style definition by seperating each element with a comma(,). <span class="example-decor">E.g</span>
+      <pre>
+          h,li {
+            color:red;
+          }
+      </pre>
+    </p>
+    <h3>CSS class SELECTOR </h3>
+    <p>
+      There may be instances where you want to style a group of html elements. In that case, we use the class attribute.This selects the element(s) on the page with the same class. 
+      <span class="example-decor">E.g</span>
+      <pre>
+          .underline {
+            text-decoration: underline;
+            }
+      </pre>
+    </p>   
+
+    <h3>CSS id SELECTOR</h3>  
+    <p>
+        In cases where we need to style a specific elemnt, we use the id attribute.
+        The id is unique within the entire html document. So, it is used to select just one unique element.
+        <br>
+        To select an element with an id, type the hash sign(#) followed by the id name. 
+        <span class="example-decor">E.g</span>
+        <pre>
+            #my-id {
+              color: red;
+            }
+        </pre>   
+        <span id="note">NOTE: id is case sensitive</span>         
+      </p>
+
+      <p>
+        The CSS unversal selecotr(*) selects all HTML elemnts on the page
+      </p>
+      
+      <h2>COMMON THINGS WE CAN DO WITH CSS</h2>
+      <p>
+        <h4>Change the Background color</h4>
+        <pre>
+            body {
+              background-color: pink;
+            }
+        </pre>        
+      </p>
+      
+      <h4> Style the Body </h4>
+      <p>
+         <pre>
+            body {
+              color:grey;
+              font-family: sans;
+            }
+          </pre>
+      </p>
+      <h4>Change the Heading</h4>
+      <p>
+        <pre>
+          h1 {
+            text-color: black;
+            font-weight: bold;
+          }
+        </pre>
+      </p>
+       
+        This website is based on <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">CSS basics</a> from Mozilla.
+        <br>
+        Be sure to dive in! 
+  </body>
+</html>

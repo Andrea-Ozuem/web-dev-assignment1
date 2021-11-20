@@ -1,0 +1,55 @@
+body {
+	color: black;
+	margin: 0 200px;
+	font-family: cursive;
+	background-color: burlywood;
+}
+
+h1 {
+	margin: 0;
+	font-family: serif;
+	font-weight: bolder;
+	font-size: 50px;
+}
+
+h4 {
+	text-decoration: underline;
+	font-weight: lighter;
+}
+
+pre {
+	color: brown;
+	margin: 0 30px;
+	border-left-width: 5px;
+	border-left-color: brown;
+	border-left-style: solid;
+	background-color: #ffb380;
+}
+
+#note {
+	font-style: italic;
+}
+
+.example-decor {
+	font-weight: lighter;
+}
+
+#common {
+	font-style: oblique;
+	font-weight: lighter;
+}
+
+.subcategory-color {
+	font-weight: lighter;
+	color: salmon;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+#highlight {
+	font-style: italic;
+	font-weight: bold;
+	color: red;
+}
